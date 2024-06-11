@@ -85,4 +85,4 @@ jobs:
       - name: Output Information
         run: |
           echo "All good!"
-          echo: ${{ toJSON(github) }}
+          echo ${{ toJSON(github) }}
